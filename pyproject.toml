@@ -1,0 +1,20 @@
+[project]
+name = "pyConfNVim"
+description = "Qt Config(ini-style) to lua and back converter for neovim"
+version = '0.1.5'
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
